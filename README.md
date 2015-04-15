@@ -96,7 +96,7 @@ By default Sphinx retrieves the following log entries:
  * Any Security/System/Setup related events
  * Some specific Application related events
 
-Refer to "C:\Program Files (x86)\nxlog\conf\nxlog.conf" for detail.
+ Refer to "C:\Program Files (x86)\nxlog\conf\nxlog.conf" for exact detail.
 
 4. Is the communication between client and server encrypted?  
 No. However, TLS support is coming very shortly.
