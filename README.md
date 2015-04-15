@@ -18,6 +18,8 @@ These queries can be run recurringly, and send alerts whenever there's a hit.
 
 Sounds interesting? Let's get started :)
 
+#Demo
+[Sphinx Demo](https://sphinx-demo.herokuapp.com)
 
 #How it works:
 
@@ -53,7 +55,8 @@ Trying Sphinx involves 4 steps.
   * Install nxlog
 
 3. Configure nxlog to forward logs to Sphinx
-  * Download the following configuration file for nxlog
+  * Download the following configuration file for nxlog:
+    [nxlog.conf](https://raw.githubusercontent.com/hiro4848/sphinx/master/nxlog.conf)
   * Overwrite "C:\Program Files (x86)\nxlog\conf\nxlog.conf" with it
 
 4. Restart your computer. (You must restart your PC for Sphinx to work correctly)
