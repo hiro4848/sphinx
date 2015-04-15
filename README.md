@@ -101,7 +101,7 @@ By default Sphinx retrieves the following log entries:
 4. Is the communication between client and server encrypted?  
 No. However, TLS support is coming very shortly.
 
-5. Can I run Hadoop?
+5. Can I run Hadoop?  
 Sure. Since Sphinx uses a RDB for storing reference hashes, it may be a good idea to set up a Hive.
 
 
