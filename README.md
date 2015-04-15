@@ -20,6 +20,8 @@ Sounds interesting? Let's get started :)
 
 #Demo
 [Sphinx Demo](https://sphinx-demo.herokuapp.com)
+Username: demo1@example.com
+Password: 12345678
 
 #How it works:
 
@@ -42,7 +44,10 @@ Sphinx is not an Anti-Virus solution. Therefore, it does prevent malware infecti
 
 
 #Want to try it yourself?
-Trying Sphinx involves 4 steps. 
+WARNING: Set up a fresh VM for testing. TLS is not turned on for the demo setup. Also, the data you forward is globally readable to other users using the demo site.
+
+That said, trying Sphinx involves 4 steps. 
+
 
 1. Download and install Sysmon from Microsoft
   * Download Sysmon 2.0 from https://technet.microsoft.com/en-us/sysinternals/dn798348
