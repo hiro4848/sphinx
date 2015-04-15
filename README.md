@@ -32,6 +32,8 @@ On the server side, Sphinx receives the incoming data using Logstash, a popular 
 Finally, normalized data is stored in an Elasticsearch server. Elasticsearch is a highly scalable, open-source full-text search engine based on Apache Lucene. Users can use Sphinx's web UI to build/run queries, and detect threats. The web front end is also capable of graphically browsing program execution history or create an alert using saved queries.
 For example, you can have an alert set to trigger whenever Sphinx sees a program execution whose reputation is 'Harmful' OR 'Potentially Harmful' OR 'Unknown'.
 
+![Architecture](https://raw.githubusercontent.com/wiki/hiro4848/sphinx/images/design.png)
+
 
 #What Sphinx is not:
 Sphinx is not an Anti-Virus solution. Therefore, it does prevent malware infection in any way. 
