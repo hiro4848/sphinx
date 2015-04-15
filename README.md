@@ -38,18 +38,18 @@ Sphinx is not an Anti-Virus solution. Therefore, it does prevent malware infecti
 Trying Sphinx involves 4 steps. 
 
 1. Download and install Sysmon from Microsoft
-  a) Download Sysmon 2.0 from https://technet.microsoft.com/en-us/sysinternals/dn798348
-  b) Run 'cmd.exe' as Administrator 
-  c) Install Sysmon by typing the following:
+  * Download Sysmon 2.0 from https://technet.microsoft.com/en-us/sysinternals/dn798348
+  * Run 'cmd.exe' as Administrator 
+  * Install Sysmon by typing the following:
      sysmon -i -accepteula -n -h md5 -l explorer.exe,lsass.exe,iexplorer.exe,dllhost.exe,smss.exe,winlogon.exe,rundll32.exe
 
 2. Download and install nxlog
-  a) Download nxlog Community Edition from http://nxlog.org/products/nxlog-community-edition/download
-  b) Install nxlog
+  * Download nxlog Community Edition from http://nxlog.org/products/nxlog-community-edition/download
+  * Install nxlog
 
 3. Configure nxlog to forward logs to Sphinx
-  a) Download the following configuration file for nxlog
-  b) Overwrite "C:\Program Files (x86)\nxlog\conf\nxlog.conf" with it
+  * Download the following configuration file for nxlog
+  * Overwrite "C:\Program Files (x86)\nxlog\conf\nxlog.conf" with it
 
 4. Restart your computer. (You must restart your PC for Sphinx to work correctly)
 
