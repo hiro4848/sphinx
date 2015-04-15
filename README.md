@@ -88,13 +88,13 @@ The short answer is no. I'd just re-install Windows if I were you...
 
 3. What information does Sphinx pull from my computer?  
 Sphinx works by forwarding your computer's event logs to Sphinx's server.   
-By default Sphinx retrieves the following log entries 
-- process creation/termination, dll module load, network connection, file creation and driver load (all from Sysmon)
-- Security
-- AppLocker related events
-- EMET related events
-- Any Security/System/Setup related events
-- Some specific Application related events
+By default Sphinx retrieves the following log entries:  
+ * process creation/termination, dll module load, network connection, file creation and driver load (all from Sysmon)
+ * Security
+ * AppLocker related events
+ * EMET related events
+ * Any Security/System/Setup related events
+ * Some specific Application related events
 
 Refer to "C:\Program Files (x86)\nxlog\conf\nxlog.conf" for detail.
 
