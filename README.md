@@ -80,14 +80,14 @@ That said, trying Sphinx involves 4 steps.
 
 
 #FAQ
-1. What platforms do you support?
+1. What platforms do you support?  
 Currently, Sphinx only works with Windows 7 and above. Linux will be supported in the future release.
 
-2. Sphinx says my computer has malware infection. Can you help?
+2. Sphinx says my computer has malware infection. Can you help?  
 The short answer is no. I'd just re-install Windows if I were you...
 
-3. What information does Sphinx pull from my computer?
-Sphinx works by forwarding your computer's event logs to Sphinx's server. 
+3. What information does Sphinx pull from my computer?  
+Sphinx works by forwarding your computer's event logs to Sphinx's server.   
 By default Sphinx retrieves the following log entries 
 - process creation/termination, dll module load, network connection, file creation and driver load (all from Sysmon)
 - Security
@@ -98,7 +98,7 @@ By default Sphinx retrieves the following log entries
 
 Refer to "C:\Program Files (x86)\nxlog\conf\nxlog.conf" for detail.
 
-4. Is the communication between client and server encrypted?
+4. Is the communication between client and server encrypted?  
 No. However, TLS support is coming very shortly.
 
 5. Can I run Hadoop?
