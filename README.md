@@ -44,7 +44,8 @@ Sphinx is not an Anti-Virus solution. Therefore, it does prevent malware infecti
 
 
 #Want to try it yourself?
-WARNING: Set up a fresh VM for testing. TLS is not turned on for the demo setup. Also, the data you forward is globally readable to other users using the demo site.
+WARNING:  
+Set up a fresh VM for testing. TLS is not turned on for the demo setup. Also, the data you forward is globally readable to other users using the demo site.
 
 That said, trying Sphinx involves 4 steps. 
 
