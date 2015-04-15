@@ -3,6 +3,7 @@ Sphinx is a highly scalable open source security monitoring tool that offers rea
 It works by having clients forward various types of event logs including process execution with cryptographic signature (MD5 hash), network activity, dll/driver loading, as well as miscellaneous system events to a Sphinx server where each event is recorded and analyzed. 
 
 With Sphinx, you can quickly find an answer to questions like:
+
 1. can we get a list of every event that happened on machine X between date Y and date Z?
 2. can we graphically trace what happened on my computer in the last 10 minutes because I feel there's something weird going on?
 3. who has run a piece of malware whose existence cannot be detect by our existing Anti-Virus product on our network?
@@ -23,6 +24,7 @@ Sounds interesting? Let's get started :)
 Sphinx works by having clients forward various types of event logs including process execution history with program's digital fingerprint (MD5 hash), network activity, dll/driver loading, as well as miscellaneous system events to a Sphinx server where each event is recorded and analyzed. These events are primarily generated through Sysmon, Microsoft's Sysinternal tool, and delivered to the server using nxlog, a robust open source log management tool. 
 
 On the server side, Sphinx receives the incoming data using Logstash, a popular log management tool with horizontal scalability. Logstash loads several plug-ins (including Sphinx's own Logstash plug-in) in order to normalize the data for analysis. The Sphinx plugin is primarily responsible for adding reputation information for events with MD5 hash. Sphinx uses the following sources to build its reputation table:
+
 1. Nastional Software Reference Library (NSRL), a project of the National Institute of Standards and Technology (NIST) which maintains a repository of known software, file profiles and file signatures for use by law enforcement and other organizations involved with computer forensic investigations.
 2. VirusTotal, a subsidiary of Google, is a free online service that analyzes files and URLs enabling the identification of viruses, worms, trojans and other kinds of malicious content detected by antivirus engines and website scanners.
 3. VirusShare, a repository of malware samples to provide security researchers, incident responders, forensic analysts, and the morbidly curious access to samples of malicious code.
