@@ -28,6 +28,7 @@ A couple of interesting examples:
   * Notice its 'High' integrity level compared to that of the grandparent 'rundll32.exe' process
 - [ZeroAccess sample which hijacks a legitimate copy of Adobe Flash Player installer](http://sphinx-demo.herokuapp.com/sb_admin/process_detail?hostname=infected-PC&guid=%7B056D4FE9-61C7-552E-0000-001019430B00%7D)
   * Use the event search feature, and you'll find ZeroAccess has disabled a number of security related services such as Windows Firewall, Security Center, or Windows Defender.
+  * Refer to (the write up James Wyke of SophosLab)[https://sophosnews.files.wordpress.com/2012/04/zeroaccess2.pdf] 
  
 
 
