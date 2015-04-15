@@ -4,12 +4,12 @@ It works by having clients forward various types of event logs including process
 
 With Sphinx, you can quickly find an answer to questions like:
 
-1. can we get a list of every event that happened on machine X between date Y and date Z?
-2. can we graphically trace what happened on my computer in the last 10 minutes because I feel there's something weird going on?
-3. who has run a piece of malware whose existence cannot be detect by our existing Anti-Virus product on our network?
-4. give me a list of program executions as well as dll loads whose reputation is questionable or bad.
-5. are there Office application making outbound connection to China?
-6. are there any dlls injected into explorer.exe whose digital signature does not belong to Microsoft?
+- can we get a list of every event that happened on machine X between date Y and date Z?
+- can we graphically trace what happened on my computer in the last 10 minutes because I feel there's something weird going on?
+- who has run a piece of malware whose existence cannot be detect by our existing Anti-Virus product on our network?
+- give me a list of program executions as well as dll loads whose reputation is questionable or bad.
+- are there Office application making outbound connection to China?
+- are there any dlls injected into explorer.exe whose digital signature does not belong to Microsoft?
 
 
 You can build both simple and complex queries to search for threats. 
