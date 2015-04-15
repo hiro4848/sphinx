@@ -19,9 +19,9 @@ These queries can be run recurringly, and send alerts whenever there's a hit.
 Sounds interesting? Let's get started :)
 
 #Demo
-[Sphinx Demo](https://sphinx-demo.herokuapp.com)
-Username: demo1@example.com
-Password: 12345678
+[Sphinx Demo](https://sphinx-demo.herokuapp.com)  
+Username: demo1@example.com  
+Password: 12345678  
 
 #How it works:
 
